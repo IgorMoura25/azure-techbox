@@ -1,0 +1,90 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #2496d4;
+    color: white;
+    font-weight: 600;
+}
+
+.toolbar img {
+    margin: 0 16px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.content {
+    margin: 82px auto 32px;
+    padding: 0 16px;
+}
+
+.download-icon {
+    padding-right: 15px;
+    color: #4abc96;
+}
+
+.edit-icon {
+    padding-right: 15px;
+    color: #1499db;
+}
+
+.delete-icon {
+    padding-right: 15px;
+    color: #f50018;
+}
+
+.processing-icon {
+    padding-right: 15px;
+    color: #4878cb;
+}
+
+.error-icon {
+    color: #f50018;
+}
+
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+}
+
+td {
+    width: 100px;
+    height: 24px;
+}
+
+.toast-danger {
+    background-color: #f9e1e5;
+    color: #af233a;
+    border-color: #f4c8cf
+}
+
+.toast-warning {
+    background-color: #fbf0da;
+    color: #73510d;
+    border-color: #f9e4be
+}
+
+.toast-info {
+    background-color: #def1f7;
+    color: #1c657d;
+    border-color: #c6e6f1
+}
+
+.toast-success {
+    background-color: #d6f0e0;
+    color: #0d6831;
+    border-color: #c0e7d0
+}
+
+.pointer {
+    cursor: pointer;
+}
